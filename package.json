@@ -1,0 +1,22 @@
+{
+  "name": "json-serializer",
+  "version": "1.0.0",
+  "description": "JSON API serializer.",
+  "main": "index.js",
+  "keywords": [
+    "json",
+    "json-api",
+    "jsonapi",
+    "json api",
+    "serializer"
+  ],
+  "author": "Hein Zeya",
+  "repository": "heinzeya/json-serializer",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.5.1"
+  }
+}
