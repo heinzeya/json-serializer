@@ -11,12 +11,19 @@ var serializer = new JsonSerializer('manager',{
   attributes: [
     'firstName', 
     'lastName', 
-    'branchName',
-    'created',
-    'email'
+    'branchName'
     ],
  relationships: {
   _merchant: { type: 'merchant'}
  }
 });
+
+serializer.serialize({
+  _id: 'xxxx',
+  firstName: 'John',
+  lastName: 'Mayer',
+  branchName: 'ABC',
+  _merchant: 'xxxxx'
+})
+
 ```
