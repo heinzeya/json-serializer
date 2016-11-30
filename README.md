@@ -5,7 +5,7 @@ JSON API serializer
 ## Example
 
 ```js
-const JsonSerializer = require('./index');
+const JsonSerializer = require('./lib/serializer');
 
 var serializer = new JsonSerializer('manager',{
   attributes: [
